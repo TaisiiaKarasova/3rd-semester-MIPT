@@ -37,3 +37,4 @@ Debug
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
+*.idb
