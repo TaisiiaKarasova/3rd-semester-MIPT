@@ -20,13 +20,13 @@ public:
             field[i] = x + i * xsize;
         }
         memory = field;
-        delete[] field;
-        delete[] x;
     }
 
     ~Grid()
     {
         x_size = y_size = 0;
+        for (int i = 0; i < y_size; i++)
+            delete[] memory[i];
         delete[] memory;
     }
 
