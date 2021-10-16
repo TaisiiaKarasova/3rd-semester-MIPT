@@ -36,7 +36,7 @@ public:
 
     T& operator()(size_t x_idx, size_t y_idx)
     {
-        return memory[y_idx]+ x_idx;
+        return memory[y_idx][x_idx];
     }
     size_t get_xsize() const
     {
