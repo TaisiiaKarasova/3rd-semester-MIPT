@@ -20,6 +20,8 @@ public:
             field[i] = x + i * xsize;
         }
         memory = field;
+        delete[] field;
+        delete[] x;
     }
 
     ~Grid()
