@@ -24,10 +24,10 @@ public:
 
     ~Grid()
     {
-        x_size = y_size = 0;
         for (int i = 0; i < y_size; i++)
             delete[] memory[i];
         delete[] memory;
+        x_size = y_size = 0;
     }
 
     T operator()(size_t x_idx, size_t y_idx) const
