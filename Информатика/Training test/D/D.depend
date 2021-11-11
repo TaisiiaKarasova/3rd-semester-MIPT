@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1636671746 source:c:\users\user\desktop\3 сем\3rd-semester-mipt\Информатика\training test\d\main.cpp
+	<iostream>
+	<string.h>
+	<algorithm>
+	<set>
+

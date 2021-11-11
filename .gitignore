@@ -38,3 +38,9 @@ Debug
 *.vcxproj.filters
 *.vcxproj.user
 *.idb
+bin
+obj
+.cbp
+*.cbp
+.layout
+*.layout

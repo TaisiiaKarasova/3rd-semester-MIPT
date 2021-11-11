@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1636667970 source:c:\users\user\desktop\3 сем\3rd-semester-mipt\Информатика\training test\h\main.cpp
+	<iostream>
+	<cmath>
+	<list>
+
