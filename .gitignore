@@ -44,3 +44,5 @@ obj
 *.cbp
 .layout
 *.layout
+.depend
+*.depend
